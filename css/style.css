@@ -8,21 +8,24 @@ h1{
 
 .section_img{
     display: inline-block;
-}
-
-.section_msg{
-    display: inline-block;
     position: relative;
-    bottom: 300px;
-    width: 200px;
 }
 
 img{
     margin-top: 50px; 
+    width: 100%;
 }
 
+
+
 #msg{
+    position: absolute;
+    width: 200px;
+    transition: all 2s;
     background: rgba(203, 149, 240, 0.733);
     padding: 20px;
     border-radius: 50%;
+    transform: scale(0);
+    opacity: 0;
 }
+
